@@ -741,7 +741,8 @@ _FX PROCESS *Process_Create(
     // check certificate
     //
 
-    if (!Driver_Certified && !proc->image_sbie) {
+    // if (!Driver_Certified && !proc->image_sbie) {
+    if (false) {
 
         const WCHAR* exclusive_setting = NULL;
 #ifdef USE_MATCH_PATH_EX
